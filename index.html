@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Topacia.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Icons/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+
+        <nav class="bar trans" id="nav">
+            <div class="box-logo">
+                <img src="./imagenes/logo/iso-logo.png" class="img-fluid">
+            </div>
+            <div class="box-icon-menu cp" id="button-menu">
+                <span class="icon-menu text-center fc-c-00"></span>
+            </div>
+            <ul class="menu">
+                <div class="menu-l trans" id="l-menu">
+                    <li class="btns">
+                        <a href="#" class="df-c01-b f-7 links">INICIO</a>
+                    </li>
+                    <li class="btns">
+                        <a href="#" class="df-c01-b f-7 links">CATALOGO</a>
+                    </li>
+                    <li class="btns">
+                        <a href="#" class="df-c01-b f-7 links">TEMPORADAS</a>
+                    </li>
+                    <li class="btns">
+                        <a href="#" class="df-c01-b f-7 links">NOTICIAS</a>
+                    </li>
+                    <li class="btns">
+                        <a href="#" class="df-c01-b f-7 links">BLOG</a>
+                    </li>
+                    <li class="btns login-resp">
+                        <a href="#" class="df-c01-b f-7 links">
+                            <span class="icon-log-in"></span>
+                            Login
+                        </a>
+                    </li>
+
+                    <li class="btns login-resp">
+                        <a href="#" class="df-c01-b f-7 links">
+                            <span class="icon-write"></span>
+                            Register
+                        </a>
+                    </li>
+                </div>
+                <div class="menu-r">
+                    <li class="btns login">
+                        <a href="#" class="df-c01-b f-7 links-r fc-c-00">
+                            <span class="icon-log-in"></span>
+                            Ingresar
+                        </a>
+                        
+                    </li>
+                    <li id="btn-cart" class="cart-btn cp" style="position:relative;">
+                        <span class="df-c01-b f-7 links-r">
+                            <span class="icon-cart2"></span>
+                            <div class="box-number-items-cart">
+                                <span class="f-9 c-w1 d-block text-center df-c01-r">14</span>
+                            </div>
+                        </span>
+                        <div class="box-cart-items trans" id="box-cart-items">
+                            <div class="col-xl-12 mb-2">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-01.png" class="img-cart">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 pt-2">
+                                        <span class="f-8 text-center d-block">Vestido de rosas</span>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-2">
+                                        <span class="f-8 text-center d-block">$ 1539.99</span>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 py-2">
+                                        <span class="f-8 text-center d-block">23 cant.</span>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col-xl-12">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                        <img src="./imagenes/catalogo/Vestidos/catalog-dress-02.png" class="img-cart">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 pt-2">
+                                        <span class="f-8 text-center d-block">Vestido de rosas</span>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 py-2">
+                                        <span class="f-8 text-center d-block">$ 1539.99</span>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 py-2">
+                                        <span class="f-8 text-center d-block">23 cant.</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="slide bg-c-00">
+            <div class="arrow-right cp" id="btn-next">
+                <span class="icon-arrow-right2"></span>
+            </div>
+            <div class="arrow-left cp" id="btn-back">
+                <span class="icon-arrow-left2"></span>  
+            </div>
+            <div class="container">
+                <div class="col-xl-12 box-slide-center">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto">
+                        <div class="row">
+                            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 mx-auto cp">
+                                <span class="icon-facebook fc-c-00"></span>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 mx-auto cp">
+                                <span class="icon-instagram fc-c-00"></span>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 mx-auto cp">
+                                <span class="icon-pinterest fc-c-00"></span>
+                            </div>
+                            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 mx-auto cp">
+                                <span class="icon-dribbble fc-c-00"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12 mt-4">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-10 mx-auto py-4">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-10 py-4 mx-auto">
+                                        <div class="circle d-block mx-auto">
+                                            <img src="./imagenes/slide/slide-00.png" class="img-slide trans" id="img-slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-10 mx-auto title-slide">
+                                        <h2 class="d-block text-center df-c01-r f-8 fc-c-00" id="category">
+                                            CHALINAS - 70% OFF
+                                        </h2>
+                                        <h1 class="d-block text-center df-c03-b fc-c-00 f-1" id="nameItem">
+                                            Chalina floral
+                                        </h1>
+                                        <span class="d-block text-center df-c01-r fc-c-00 f-1" id="price">
+                                            $ 240,00
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+    
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 box-temporada">
+                                <div class="col-xl-10 mx-auto">
+                                    <span class="df-c01-r f-5 fc-c-00 text-center d-block">SE APROXIMA</span>
+                                </div>
+                                <div class="col-xl-10 mx-auto">
+                                    <h3 class="df-c03-b f-0 fc-c-00 text-center">el otoño</h3>
+                                </div>
+                                <div class="col-xl-8 mx-auto">
+                                    <h3 class="df-c01-r f-5 fc-c-00 text-center">Abrigate con la nueva moda y no ocultes tu lado sexy.</h3>
+                                </div>
+                                <br>
+                                <button class="btn-slide mx-auto d-block df-c01-r">
+                                    ver coleccion
+                                </button>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="col-xl-12 py-5 mt-5">
+        
+        <div class="container cont-z-index">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 mx-auto">
+                        <div class="col-xl-10 mx-auto">
+                            <div class="col-xl-8 mx-auto py-4">
+                                <img src="./imagenes/icons/credit-card.png" class="icons-service d-block mx-auto">
+                            </div>
+                            <h6 class="df-c03-b text-center">PAGAR ES MAS FACIL</h6>
+                            <br>
+                            <p class="df-c01-r f-6 c-b3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic voluptates quia deleniti unde. Corrupti delectus veniam, soluta sed iste harum quae dolor facilis, ipsa ut tenetur odio magnam perferendis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 mx-auto">
+                        <div class="col-xl-10 mx-auto">
+                            <div class="col-xl-8 mx-auto py-4">
+                                <img src="./imagenes/icons/moda.png" class="icons-service d-block mx-auto">
+                            </div>
+                            <h6 class="df-c03-b text-center">LO NUEVO DE LA MODA</h6>
+                            <br>
+                            <p class="df-c01-r f-6 c-b3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic voluptates quia deleniti unde. Corrupti delectus veniam, soluta sed iste harum quae dolor facilis, ipsa ut tenetur odio magnam perferendis.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 mx-auto">
+                        <div class="col-xl-10 mx-auto">
+                            <div class="col-xl-8 mx-auto py-4">
+                                <img src="./imagenes/icons/credit-card.png" class="icons-service d-block mx-auto">
+                            </div>
+                            <h6 class="df-c03-b text-center">PAGAR ES MAS FACIL</h6>
+                            <br>
+                            <p class="df-c01-r f-6 c-b3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic voluptates quia deleniti unde. Corrupti delectus veniam, soluta sed iste harum quae dolor facilis, ipsa ut tenetur odio magnam perferendis.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DREES -->
+
+    <section class="col-xl-12 py-5">
+        <div class="container py-5">
+            <div class="row">
+                <aside class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-9 mx-auto mb-5 p-0">
+                    <div class="box-category-catalog col-xl-12 py-5 bg-c-01 mt-2">
+                        <div id="circle-transposition"></div>
+                        <div class="circle-transposition-2"></div>
+                        <div class="col-xl-12 p-0">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-2 col-sm-3 col-3 mx-auto">
+                                    <img src="./imagenes/catalogo/Vestidos/dress-00.png" class="img-fluid">
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-10 mx-auto">
+                                    <h3 class="f-8 text-center df-c01-r fc-c-00">R E D I S E Ñ A</h3>
+                                    <h3 class="f-3 text-center fw-b df-c03-b fc-c-00">LA MODA</h3>
+                                    <h6 class="text-vert-sub-name df-c01-r fc-c-00">DRESS</h6>
+                                    <h2 class="text-vertical df-c03-b fc-c-00">
+                                        VESTIDOS
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <article class="col-xl-8 col-lg-8 col-md-11 col-sm-11 mx-auto">
+                    <div class="col-xl-12 mt-2">
+                        <div class="row">
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-4">
+                                <div class="col-xl-12 bg-c-01 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-01.png" class="catalog-image mx-auto d-block">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-4">
+                                <div class="col-xl-12 py-0 bg-c-06 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-02.png" class="catalog-image mx-auto d-block">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto mb-4">
+                                <div class="col-xl-12 py-0 bg-c-08 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-03.png" class="catalog-image mx-auto d-block">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto">
+                                <div class="col-xl-12 py-0 bg-c-05 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-04.png" class="catalog-image mx-auto d-block">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto">
+                                <div class="col-xl-12 py-0 bg-c-02 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-05.png" class="catalog-image mx-auto d-block">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-10 mx-auto">
+                                <div class="col-xl-12 py-0 bg-c-07 box-model">
+                                    <img src="./imagenes/catalogo/Vestidos/catalog-dress-06.png" class="catalog-image">
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="col-xl-12 p-0">
+                                        <small>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-full"></span>
+                                            <span class="icon-star-half"></span>
+                                            <span class="icon-star"></span>
+                                        </small>
+                                    </div>
+                                    <h5 class="df-c01-r f-5">Vestido de rosas</h5>
+                                    <span class="df-c01-b mr-4">$ 1539.99</span>
+                                    <small class="df-c01-b c-b2" style="text-decoration:line-through;">$2500.99</small>
+                                    <small><span class="icon-heart2 ml-2"></span></small>
+                                </div>
+                            </div>
+
+                        </div> 
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+
+    <section class="col-xl-12 mt-5 py-5">
+        <div class="container">
+            <div class="col-xl-12 px-4">
+                <div class="row">
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-05">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/scarves.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Chalinas</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-01">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/shoes.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Zapatos</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-08">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/brazalet.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Accesorios</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-09">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/bug.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Carteras</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-06">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/jeans.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Jeans</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-06">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/camisas.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Camisas</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-01">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/remeras.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Remeras</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-04">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/dress.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Vestidos</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mt-3 mx-auto">
+                        <div class="col-xl-12 py-4 bg-c-03">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-6 mx-auto">
+                                    <div class="col-xl-10 mx-auto my-2">
+                                        <img src="./imagenes/category/sombrero.png" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-10 mx-auto">
+                                    <span class="f-2 df-c03-b text-center d-block">Sombreros</span>
+                                    <small class="df-c01-r text-center d-block">Lorem ipsum dolor .</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+
+    <section class="col-xl-12 mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 p-0">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-10 mx-auto">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box-content-img-blog">
+                                <img src="./imagenes/blog/01.jpg" class="blog-img">
+                            </div>
+                        </div>
+                        <div class="text-main-box-blog py-4 px-5">
+                            <h1 class="title-blog-main df-c03-b d-block text-center">Moda Blog</h1>
+                            
+                            <small class="d-block text-center df-c01-r">lorette le mua</small>
+                            <br>
+                            <p class="df-c01-r text-center">
+                                
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet, 
+                                provident, ex ratione deleniti alias, eos eveniet quis sint placeat
+                                perferendis nam atque pariatur repellendus vitae? Aliquam fugiat error 
+                                quas.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- POSTS -->
+
+    <section class="mb-5" style="margin-top:450px;">
+        <div class="container">
+            <div class="col-xl-12 p-0">
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mx-auto my-5">
+                        <div class="col-xl-10 mx-auto p-0">
+                            <img src="./imagenes/blog/post-01.jpg" class="img-fluid">
+                            <div class="col-xl-12 py-4 px-4">
+                                <h1 class="df-c03-b text-center f-3">La moda del invierno.</h1>
+                                <small class="df-c01-r d-block text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore necessitatibus 
+                                    ullam nobis architecto eum? Nam assumenda unde [...]
+                                </small>
+                            </div>
+                            <div class="col-xl-3 col-6 mx-auto by-separator-blog py-1 ml-3"></div>
+                            <div class="col-xl-12 col-6 mx-auto">
+                                <small class="df-c01-b text-center">Por , Erika deviur</small>
+                            </div>
+                            <div class="col-xl-12 text-center">
+                                <div class="row">
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-calendar mr-2">
+                                        </span>
+                                        27/03/2014
+                                    </div>
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-bubble2 mr-2">
+                                        </span>
+                                        17 Coments.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mx-auto my-5">
+                        <div class="col-xl-10 mx-auto p-0">
+                            <img src="./imagenes/blog/post-02.jpg" class="img-fluid">
+                            <div class="col-xl-12 py-4 px-4">
+                                <h1 class="df-c03-b text-center f-3">Probando el estilo.</h1>
+                                <small class="df-c01-r d-block text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore necessitatibus 
+                                    ullam nobis architecto eum? Nam assumenda unde [...]
+                                </small>
+                            </div>
+                            <div class="col-xl-3 by-separator-blog py-1 ml-3"></div>
+                            <div class="col-xl-12">
+                                <small class="df-c01-b">Por , Erika deviur</small>
+                            </div>
+                            <div class="col-xl-12 text-center">
+                                <div class="row">
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-calendar mr-2">
+                                        </span>
+                                        27/03/2014
+                                    </div>
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-bubble2 mr-2">
+                                        </span>
+                                        17 Coments.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 mx-auto my-5">
+                        <div class="col-xl-10 mx-auto p-0">
+                            <img src="./imagenes/blog/post-03.jpg" class="img-fluid">
+                            <div class="col-xl-12 py-4 px-4">
+                                <h1 class="df-c03-b text-center f-3">Bobby , el nuvevo bolso de Dior.</h1>
+                                <small class="df-c01-r d-block text-center">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni tempore necessitatibus 
+                                    ullam nobis architecto eum? Nam assumenda unde [...]
+                                </small>
+                            </div>
+                            <div class="col-xl-3 by-separator-blog py-1 ml-3"></div>
+                            <div class="col-xl-12">
+                                <small class="df-c01-b">Por , Erika deviur</small>
+                            </div>
+                            <div class="col-xl-12 p-0 text-center">
+                                <div class="row">
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-calendar mr-2">
+                                        </span>
+                                        27/03/2014
+                                    </div>
+                                    <div class="col-xl-6 py-2 df-c01-r f-7">
+                                        <span class="icon-bubble2 mr-2">
+                                        </span>
+                                        17 Coments.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-c-01 mt-5 py-5">
+        
+        
+        <div class="col-xl-3 col-lg-2 col-md-3 col-sm-4 col-6 mx-auto">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2 mx-auto">
+                    <span class="icon-facebook fc-c-00 mr-2 d-block text-center"></span>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2 mx-auto">
+                    <span class="icon-instagram fc-c-00 mr-2 d-block text-center"></span>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2 mx-auto">
+                    <span class="icon-pinterest fc-c-00 mr-2 d-block text-center"></span>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-2 mx-auto">
+                    <span class="icon-dribbble fc-c-00 mr-2 d-block text-center"></span>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 mx-auto mt-4" style="border-top:1px solid #e79d7d;">
+            </div>
+            
+            
+            
+            
+        </div>
+        
+
+        <div class="col-xl-12 py-5">
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-8 mx-auto py-4">
+                    <div class="col-xl-11 mx-auto">
+                        <img src="./imagenes/logo/logo-02.png" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-8 col-10 mx-auto py-4">
+                    <div class="col-xl-12">
+                        <p class="df-c01-r fc-c-00 text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tempore ipsum 
+                            dolore inventore debitis nostrum eum ullam, voluptatum doloribus accusamus commodi 
+                            provident obcaecati cum, saepe veritatis? Aliquid aspernatur sequi saepe.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-10 mx-auto py-4">
+                    <div class="col-xl-12 df-c01-r fc-c-00">
+                        <div class="row">
+                            <!-- <div class="col-xl-3 col-lg-3 col-md-2 mx-auto">
+                                <img src="./imagenes/brands/47-street.png" class="img-fluid">
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-2 mx-auto">
+                                <img src="./imagenes/brands/dolce&gabana.png" class="img-fluid">
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-2 mx-auto">
+                                <img src="./imagenes/brands/gucci.png" class="img-fluid">
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-2 mx-auto">
+                                <img src="./imagenes/brands/dior.png" class="img-fluid">
+                            </div> -->
+                            <div class="col-xl-12 py-1 text-center">
+                                <span class="icon-whatsapp"></span>
+                                ( 011 ) - 4582 - 1147
+                            </div>
+                            <div class="col-xl-12 py-1 text-center">
+                                <span class="icon-smartphone"></span>
+                                ( 011 ) - 4582 - 1147
+                            </div>
+                            <div class="col-xl-12 py-1 text-center">
+                                <span class="icon-phone"></span>
+                                ( 011 ) - 4582 - 1147
+                            </div>
+                            <div class="col-xl-12 py-1 text-center">
+                                <span class="icon-mail"></span>
+                                beauty_woman@gmail.com
+                            </div>
+                            <div class="col-xl-12 py-1 text-center">
+                                <span class="icon-location"></span>
+                                San Diego - Bs As - Argentina
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-8 col-sm-10 mx-auto py-4">
+                    <div class="col-xl-12 py-2">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <input class="form-control df-c01-r text-center" placeholder="E-mail">
+                            </div>
+
+                            <div class="col-xl-6 mt-3">
+                                <button class="btn-slide d-block mx-auto">
+                                    incribirnse
+                                </button>
+                            </div>
+                            
+                            <div class="col-xl-12">
+                                <hr>
+                                <small class="df-c01-r text-center d-block fc-c-00">Ingrese su mail y reciba noticias y descuentos en su correo cada semana.</small>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+    </footer>
+
+    <!-- custon js -->
+    <script src="js/cart-items.js"></script>
+    <script src="js/Menu.js"></script>
+    <script src="js/slide.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

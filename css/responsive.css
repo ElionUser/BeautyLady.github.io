@@ -1,0 +1,150 @@
+@media screen and (max-width:1160px)
+{
+    .box-icon-menu { display:block; }
+
+    .menu-r {
+        position:absolute;
+        right:100px;
+    }
+
+    .menu-l { 
+        position:absolute;
+        z-index:1;
+        right:0px;
+        width:100%;
+        margin-top:80px;
+        height:100vh;
+        visibility:hidden;
+        opacity:0;
+    }
+
+    .menu-l > .btns {
+        width:30%;
+        float:none;
+        margin:10px auto;
+        
+    }
+
+    .menu-l > .btns:first-child {
+        margin-top:50px;
+    }
+
+    .menu-l > .btns > .links {
+        text-align:center;
+        display:block;
+    }
+
+    .menu-l > .btns {
+        padding:10px 5px;
+        border-radius:15px;
+        margin:15px auto;
+    }
+
+    .menu-l > .btns:first-child {
+        margin-top:100px;
+    }
+
+    .btns:hover {
+        background-color:#ff9054;
+    }
+    .btns:hover .links {color:#fff;}
+
+    /* MENU - R */
+
+    .login {display:none;}
+    .login-resp {display:block;}
+}
+
+
+@media screen and (max-width:992px)
+{
+    .box-temporada { display:none; }
+}
+
+@media screen and (max-width:800px)
+{
+    /* MENU */
+
+    
+}
+
+@media screen and (max-width:580px)
+{
+    .text-main-box-blog {
+        width:100%;
+        z-index:1;
+    }
+
+    .category-product-slide
+    {
+        top:0px;
+        border:1px solid black;
+    }
+
+    .title-slide > h1 {font-size:1.4rem;}
+    .title-slide > span {font-size:1.6rem;}
+    
+}
+
+@media screen and (max-width:500px)
+{
+    .circle {
+        padding:15% 10%;
+        width:100%;
+        height:100%;
+    }
+    .img-slide {
+        width:90%;
+        max-width:150px;
+    }
+
+    /* CART */
+    
+    .box-cart-items {width:400%;}
+}
+
+
+@media screen and (max-width:360px)
+{
+
+    /* CART */
+    
+    .box-cart-items { right:-70px; width:400%;}
+
+
+    /* MENU */
+
+    .bar {
+        position:fixed;
+        height:80px;
+        z-index:10;
+    }
+
+    .menu-l > .btns {
+        width:50%;
+        margin:10px auto;
+    }
+
+    .text-banner-esp {
+        font-size:3rem;
+    }
+
+    .text-main-box-blog {
+        position:inherit;
+        right:0px;
+        left:0px;
+        margin:150px auto;
+        width:450px;
+        height:250px;
+        background-color:#fff;
+    }
+
+    .menu-l > .btns:first-child {
+        margin-top:100px;
+    }
+
+    
+    .box-slide-center {margin-top:100px;}
+    
+
+}
